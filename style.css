@@ -1,3 +1,13 @@
 body{
     margin: 0;
+  display: grid;
+  grid-template-areas: 'header header header header'
+  'section1 section1 section1 section1'
+  'section2 section2 section2 section2'
+  'section3 section3 section3 section3'
+  'footer footer footer footer';
+  grid-template-rows: 15vh 70vh 30vh;
+}
+#section3{
+    grid-area: section3;
 }
