@@ -1,13 +1,54 @@
 body{
     margin: 0;
   display: grid;
-  grid-template-areas: 'header header header header'
+  grid-template-areas: 
+  'barraverde barraverde barraverde barraverde'
+  'header header header header'
   'section1 section1 section1 section1'
   'section2 section2 section2 section2'
   'section3 section3 section3 section3'
   'footer footer footer footer';
-  grid-template-rows: 15vh 70vh 30vh;
+  grid-template-rows: 2vh 70vh 50vh 60vh 50vh 20vh;
 }
+
+#barraverde{
+    grid-area: barraverde;
+    background-color: #38cd6f;
+}
+
+header{
+    grid-area: header;
+    background-color: lightsalmon;
+    background-image: url(images/banner.png);
+}
+
+header h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+header p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#section1{
+    grid-area: section1;
+    background-color: white;
+}
+
+#section2{
+    grid-area: section2;
+    background-color: #e3e3e3;
+}
+
 #section3{
     grid-area: section3;
+    background-color: white;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #e3e3e3;
 }
