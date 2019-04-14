@@ -53,11 +53,11 @@ header p{
     color: gray;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; 
-    width: 300px;
-    height: 40px;
+    width: 500px;
+    height: 50px;
     border: none;
     float:left;
-    margin: 0 0 0 0;
+    font-size: 18pt;
 
 }
 .botao{
@@ -65,9 +65,10 @@ header p{
     color:white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; 
-    width: 100px;
-    height: 43px;
+    width: 150px;
+    height: 53px;
     border: none;
+    font-size: 18pt;
     
 }   
 
@@ -79,6 +80,8 @@ header p{
 #section2 p{
     color: gray;
     text-align: left;
+    font-size: 15pt;
+    line-height: 25pt;
 }
 
 #section3{
