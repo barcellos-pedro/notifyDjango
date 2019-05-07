@@ -1,0 +1,16 @@
+.vscode
+
+#DLL files
+__pychace__
+
+# pack da distribuiçao
+.Python
+
+#Ambiente virutal
+myEnv/
+
+#mypy
+.mypy_cache/
+
+#Sql
+db.sqlite3
